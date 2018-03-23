@@ -9,7 +9,7 @@
 - [ios](https://itunes.apple.com/us/app/quantumult/id1252015438?mt=8)
 
 ### 1.2 扫描二维码
-![](r1.png)
+![](img/r1.png)
 
 ### 1.3 设置协议参数
 ```
@@ -26,13 +26,13 @@
 - [ios](https://itunes.apple.com/us/app/kitsunebi/id1275446921?mt=8)
 
 ### 2.2 windows 例子
-![](win.png)
+![](img/win.png)
 
 ### 2.3 mac 例子 
-![](mac.png)
+![](img/mac.png)
 
 ### 2.4 kit ios 例子
-![](kit.png)
+![](img/kit.png)
 
 ### 2.5 安卓例子
-![](and.png)
+![](img/and.png)
