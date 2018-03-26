@@ -13,4 +13,4 @@
 
 #### 1.3 mac 酸酸客户端扫描二维码例子
 
-![](../img/mac_qrcode.png)
+![](../img/mac-qrcode.png)
