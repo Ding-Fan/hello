@@ -48,11 +48,11 @@ git clone https://github.com/shadowsocksr-backup/shadowsocksr.git
     "fast_open": false
 }
 ```
-说明：443 端口这种配置方法适用于端口大于 9680 的新同学，如果你是之前老同学。直接修改 server_port 和 password 即可，protocol_param 空白
-    "speed_limit_per_user": 0,。
+说明：
+443 端口这种配置方法适用于端口大于 9680 的新同学，如果你是之前老同学。直接修改 server_port 和 password 即可，protocol_param 空白。
 
 配置并且启动 ssr 客户端
 ```
-vim ssr_local.json    然后填入上面的配置文件内容
-/root/shadowsocksr/shadowsocks/local.py -c /root/ssr_local.json -d start
+> vim ssr_local.json    然后填入上面的配置文件内容
+> /root/shadowsocksr/shadowsocks/local.py -c /root/ssr_local.json -d start
 ```
