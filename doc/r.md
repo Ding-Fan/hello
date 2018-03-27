@@ -32,14 +32,14 @@ git clone https://github.com/shadowsocksr-backup/shadowsocksr.git
     "password": "123456",
     "method": "aes-256-cfb",
     "protocol": "auth_aes128_md5",
-    "protocol_param": "端口:密码",
+    "protocol_param": "端口:密码",
     "obfs": "tls1.2_ticket_auth",
     "obfs_param": "",
     "speed_limit_per_con": 0,
     "speed_limit_per_user": 0,
 
-    "additional_ports" : {}, // only works under multi-user mode
-    "additional_ports_only" : false, // only works under multi-user mode
+    "additional_ports" : {},
+    "additional_ports_only" : false, 
     "timeout": 120,
     "udp_timeout": 60,
     "dns_ipv6": false,
@@ -50,4 +50,9 @@ git clone https://github.com/shadowsocksr-backup/shadowsocksr.git
 ```
 说明：443 端口这种配置方法适用于端口大于 9680 的新同学，如果你是之前老同学。直接修改 server_port 和 password 即可，protocol_param 空白
     "speed_limit_per_user": 0,。
-    
+
+配置并且启动 ssr 客户端
+```
+vim ssr_local.json    然后填入上面的配置文件内容
+/root/shadowsocksr/shadowsocks/local.py -c /root/ssr_local.json -d start
+```
