@@ -3,8 +3,8 @@
 #### surge 配置文件添加
 ```
 svip21.mm1080p.rocks = socks5-tls, svip21.mm1080p.rocks, 555, 酸酸乳端口, 酸酸乳密码, skip-cert-verify=true
-svip22.mm1080p.rocks = socks5-tls, svip21.mm1080p.rocks, 555, 酸酸乳端口, 酸酸乳密码, skip-cert-verify=true
-svip23.mm1080p.rocks = socks5-tls, svip21.mm1080p.rocks, 555, 酸酸乳端口, 酸酸乳密码, skip-cert-verify=true
+svip22.mm1080p.rocks = socks5-tls, svip22.mm1080p.rocks, 555, 酸酸乳端口, 酸酸乳密码, skip-cert-verify=true
+svip23.mm1080p.rocks = socks5-tls, svip23.mm1080p.rocks, 555, 酸酸乳端口, 酸酸乳密码, skip-cert-verify=true
 ->
 svip32
 ```
