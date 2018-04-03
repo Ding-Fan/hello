@@ -2,6 +2,7 @@
 - [酸酸乳教程](doc/r.md)
 - [v2ray 教程](doc/v2.md)
 - [special for surge](doc/s5-tls.md)
+- [酸酸乳订阅模式](doc/ssr-sub.md)
 
 群组在 telegram 上面，在 telegram @netflixone 即可加入群组。
 
