@@ -2,7 +2,7 @@
 
 #### 1.订阅模式(推荐)
 ```
-https://books.dsh.li/surge?password=123456&username=9966
+http://sub.bookshop.studio/surge?password=123456&username=9966
 ```
 把这里的 9966 换成自己的端口，123456换成自己的密码即可。
 
