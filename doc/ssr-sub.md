@@ -1,7 +1,7 @@
 ### ssr 订阅模式
 #### 1.订阅地址
 ```
-http://sub.bookshop.studio/ssr?password=123456&port=9977
+https://sub.bookshop.studio/ssr?password=123456&port=9977
 ```
 把这里的 9977 换成你自己的端口，123456 换成你自己的密码即可。
 
