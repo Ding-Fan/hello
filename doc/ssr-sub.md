@@ -1,8 +1,6 @@
 ### ssr 订阅模式
 #### 1.订阅地址
-```
-https://sub.bookshop.studio/ssr?password=密码&port=端口
-```
+https://sub.bookshop.studio/
 
 #### 2.shadowrocket 配置
 ![](../img/rocket-sub.png)
