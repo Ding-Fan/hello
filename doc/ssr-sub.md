@@ -1,6 +1,6 @@
 ### ssr 订阅模式
 #### 1.订阅地址
-https://sub.bookshop.studio/
+[订阅地址生成](https://sub.bookshop.studio/)
 
 #### 2.shadowrocket 配置
 ![](../img/rocket-sub.png)
