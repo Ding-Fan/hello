@@ -1,7 +1,7 @@
 为广大 surge 用户提供全面的支持，支持 surge mac 和 surge ios 版本。
 
 #### 1.订阅模式(推荐)
-https://sub.bookshop.studio/
+[订阅地址生成](https://sub.bookshop.studio/)
 
 #### 2.手动添加 surge 配置文件添加
 ```
