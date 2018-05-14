@@ -3,7 +3,7 @@
 - [v2ray](doc/v2.md)
 - [ surge](doc/s5-tls.md)
 
-telegram @nfone @nilsale 即可加入群组。
+telegram @nfone @nilsale
 
 
 
