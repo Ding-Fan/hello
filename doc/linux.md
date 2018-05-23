@@ -1,3 +1,5 @@
+linux 下命令行代理建议配置 proxychains socks5 来使用
+
 ### 1 酸酸乳 linux mac 配置
 拉代码
 ```
