@@ -6,7 +6,7 @@ git clone https://github.com/shadowsocksr-backup/shadowsocksr.git
 配置文件
 ```
 {
-    "server": "ru1.bookshop.studio",
+    "server": "svip21.mm1080p.rocks",
     "server_ipv6": "::",
     "server_port": 443,
     "local_address": "127.0.0.1",
