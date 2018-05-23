@@ -54,7 +54,7 @@ https://github.com/v2ray/v2ray-core/releases
   },
  
   "inbound": {
-    "port": 1080,
+    "port": 1077,
     "listen": "127.0.0.1",
     "protocol": "socks",
     "settings": {
@@ -94,7 +94,7 @@ https://github.com/v2ray/v2ray-core/releases
 }
 ```
 
-配置好后，本地就可以通过 socks5 协议连接了 127.0.0.1 端口 1080
+配置好后，本地就可以通过 socks5 协议连接了 127.0.0.1 端口 1077
 
 ### 3 proxychains ubuntu 下命令行代理配置
 #### 3.1 获取 v2ray
@@ -107,4 +107,28 @@ cd v2ray-v3.22-linux-64/
 ```
 vim local_conf.json
 填上面的配置文件内容
+
+chmod +x local_conf.json
+nohup ./v2ray -config local_conf.json &
 ```
+这样 v2ray 就跑起来了 本地 socks5 端口为 1077
+
+#### 3.3 配置 proxychains
+```
+apt-get install -y proxychains
+vim /etc/proxychains.conf
+```
+修改成如下
+```
+[ProxyList]
+# add proxy here ...
+# meanwile
+# defaults set to "tor"
+socks5  127.0.0.1 1077
+```
+这样就成功了 测试一下呢 curl 和 git clone 的代理速度
+```
+proxychains curl https://www.google.com/?gws_rd=ssl
+proxychains git clone https://github.com/torvalds/linux.git
+```
+Have fun!
