@@ -46,5 +46,50 @@ https://github.com/v2ray/v2ray-core/releases
 ```
 配置 conf.json 文件如下
 ```
-123
+{
+  "log": {
+    "loglevel": "warning"
+  },
+ 
+  "inbound": {
+    "port": 1080,
+    "listen": "127.0.0.1",
+    "protocol": "socks",
+    "settings": {
+      "auth": "noauth",
+      "udp": false,
+      "ip": "127.0.0.1"
+    }
+  },
+ 
+  "outbound": {
+    "protocol": "vmess",
+ 
+    "settings": {
+      "vnext": [{
+        "address": "svip21.mm1080p.rocks",
+        "port": 10086,
+        "users": [{
+          "id": "这里换成你的 uid",
+          "alterId": 10
+        }]
+      }]
+    },
+ 
+    "streamSettings": {
+      "network": "tcp",
+      "security": "tls"
+    }
+  },
+ 
+  "policy": {
+    "levels": {
+      "0": {
+        "uplinkOnly": 0
+      }
+    }
+  }
+}
 ```
+
+配置好后，本地就可以通过 socks5 协议连接了 127.0.0.1 端口 1080
