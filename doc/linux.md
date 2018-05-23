@@ -95,3 +95,16 @@ https://github.com/v2ray/v2ray-core/releases
 ```
 
 配置好后，本地就可以通过 socks5 协议连接了 127.0.0.1 端口 1080
+
+### 3 proxychains ubuntu 下命令行代理配置
+#### 3.1 获取 v2ray
+```
+wget https://github.com/v2ray/v2ray-core/releases/download/v3.22/v2ray-linux-64.zip
+unzip v2ray-linux-64.zip
+cd v2ray-v3.22-linux-64/
+```
+#### 3.2 配置文件
+```
+vim local_conf.json
+填上面的配置文件内容
+```
