@@ -39,3 +39,12 @@ git clone https://github.com/shadowsocksr-backup/shadowsocksr.git
 > vim ssr_local.json    然后填入上面的配置文件内容
 > /root/shadowsocksr/shadowsocks/local.py -c /root/ssr_local.json -d start
 ```
+### 2 v 2ray 命令行配置
+获取客户端 
+```
+https://github.com/v2ray/v2ray-core/releases
+```
+配置 conf.json 文件如下
+```
+123
+```
