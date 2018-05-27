@@ -2,4 +2,5 @@
 - [ssr](doc/ssr-sub.md)
 - [v2ray](doc/v2.md)
 - [ surge](doc/s5-tls.md)
+- [ surge mac](doc/surge_mac.md)
 - [linux cmd](doc/linux.md)
