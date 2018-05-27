@@ -1,5 +1,5 @@
-### 1 下载 surge mac(14 天的试用期)
-地址 https://nssurge.com 
+### 1 下载 surge mac
+地址 https://nssurge.com (14 天的试用期)
 
 ### 2 配置
 先打开 surge mac 配置文件夹
