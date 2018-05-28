@@ -1,5 +1,5 @@
 - [客户端](doc/clients.md)
-- [ssr](doc/ssr-sub.md)
+- [ssr 订阅](doc/ssr-sub.md)
 - [v2ray](doc/v2.md)
 - [ surge](doc/s5-tls.md)
 - [ surge mac](doc/surge_mac.md)
