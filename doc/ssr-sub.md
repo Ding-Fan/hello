@@ -9,6 +9,7 @@
 #### 3.mac
 如果你发现 mac 或者 windows 下订阅模式有问题，可以先把客户端升级到最新版本。
 ![](../img/mac-sub.png)
+![](../img/ssr_mac2.png)
 
 #### 4.shadowrocket 配置
 ![](../img/rocket-sub.png)
