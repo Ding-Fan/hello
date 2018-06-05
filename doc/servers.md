@@ -12,6 +12,6 @@
 30 | SSR Surge
 31 | SSR V2ray Surge
 32 | SSR Surge
-33 | SSR V2ray Surge
+33 | SSR Surge
 34 | SSR V2ray Surge
 35 | SSR V2ray Surge
