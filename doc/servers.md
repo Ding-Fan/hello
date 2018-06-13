@@ -9,7 +9,7 @@
 27 | SSR V2ray Surge
 28 | SSR V2ray Surge
 29 | SSR Surge
-30 | SSR Surge
+30 | SSR V2ray Surge
 31 | SSR Surge
 32 | SSR Surge
 33 | SSR Surge
